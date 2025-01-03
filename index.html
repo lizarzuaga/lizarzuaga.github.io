@@ -3,48 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <div class="nav">
-        <h2>Home About Projects Contact</h2>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <button><li><a href="#contact">Contact</a></li></button>
+        </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hello, my name is Liz!</h1> 
+            <p>Front-End Developer</p>
+            <p>Skills:
+                <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                </ul></p>
+        </div>
+        </div>
     </div>
-    <style>
-        .nav {
-            text-align: right;
-            position: relative; top:-55px;
-        }
-    </style>
-    <div class="bio">
-    <p>Hello, my name is Liz!</p>
-    <p>Front-End Developer</p>
-<p>Skills:</p>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JS</li>
-</ul>
+<!-- About -->
+    <div id="about">
+        <div class="containter">
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>I enjoy solving problems. Front-end developers are equally creative and analytical. It's about design and making things more functional for users. One day I would like to design for an organization like Glossier or Amazon.</p>
+            </div>
+        </div>
     </div>
-    <style>
-    .bio {
-        text-align: left
-    }
-    </style>
-    <div class="footer">
-        <footer>
-        <h3>Contact Me</h3>
-        <input type="email" placeholder="email..."> <button>Submit!</button>
-        <p><a href="https://www.linkedin.com/in/liz-a-925210336/">LinkedIn</a></p>
-        </footer>
+    <!-- projects -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Moodboard Brainstorm.jpg">
+                    <div class="layer">
+                    <a href="https://www.canva.com/design/DAGVhm6FE-A/6xPv-om5OCrGJgUKKnZ5pg/edit?utm_content=DAGVhm6FE-A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><h3>Travel Company Moodboard</h3></a>
+                    </div>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="Digital Business Card.png">
+                    <div class="layer">
+                        <h3>Digital Business Card</h3>
+                        <a href="https://www.canva.com/design/DAGVhm6FE-A/6xPv-om5OCrGJgUKKnZ5pg/edit?utm_content=DAGVhm6FE-A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Prototype.png">
+                    <div class="layer">
+                        <a href="https://www.canva.com/design/DAGVQyi97yc/Ei7oXc6gCnfBKHEs06mEEg/edit?utm_content=DAGVQyi97yc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><h3>NONA Slice House App Prototype</h3></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Space Exploration Website.png">
+                    <div class="layer">
+                    <h3>Space Exploration Website</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>lizzyarzuaga@gmail.com</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/liz-a-925210336/">LinkedIn</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <style>
-        .footer {
-            position: relative; top: 520px;
-        }
-    </style>
-    <h4>Works (placeholders)</h4>
-    <img src="dogstare.jpg" alt="dog">
+ </div>
 
+    <div class="copyright">
+    <p>Copyright @ Liz Arzuaga 2025</p>
+    </div>
+
+    <!-- js -->
+<script src="script.js"></script>
 </body>
 </html>
